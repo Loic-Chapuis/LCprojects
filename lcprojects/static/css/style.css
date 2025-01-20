@@ -1,0 +1,30 @@
+/* Styles pour la hero section */
+.hero-section {
+    height: 100vh;
+    margin-top: -56px; /* Pour compenser la navbar fixed */
+}
+
+/* Styles pour le portfolio */
+.portfolio-item {
+    overflow: hidden;
+}
+
+.portfolio-overlay {
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+/* Styles pour les liens sociaux */
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0d6efd !important;
+}
